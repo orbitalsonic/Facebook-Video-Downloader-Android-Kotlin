@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="@dimen/_200sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:background="@drawable/gradiant_bg2"
+    android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/think_icon"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:textColor="@android:color/white"
+            android:text="@string/do_you_want_to_leave"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:textColor="@android:color/white"
+            android:text="@string/choose_an_action"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_35sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginStart="@dimen/_7sdp"
+                android:layout_marginEnd="@dimen/_7sdp"
+                android:background="@drawable/btn_gradiant_bg"
+                android:id="@+id/_no"
+                android:padding="@dimen/_5sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="@string/no"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/_7sdp"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/btn_gradiant_bg2"
+                android:id="@+id/_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="@string/yes"/>
+        </LinearLayout>
+    </LinearLayout>

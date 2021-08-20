@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_slide"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/slide3_heading"
+        android:textSize="@dimen/_18ssp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/helping_icon2"
+        android:contentDescription="@string/todo" />
+
+
+</RelativeLayout>
