@@ -1,36 +1,6 @@
 <resources>
     <string name="app_name">FB Video Downloader</string>
 
-<!--    <string name="facebook_simple_banner_ids">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>-->
-<!--    <string name="facebook_native_banner_ids">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>-->
-<!--    <string name="facebook_simple_medium_ids">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>-->
-<!--    <string name="facebook_native_medium_ids">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>-->
-<!--    <string name="facebook_interstitial_ids">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>-->
-
-<!--    <string name="admob_app_ids">ca-app-pub-3940256099942544~3347511713</string>-->
-<!--    <string name="admob_simple_banner_ids">ca-app-pub-3940256099942544/6300978111</string>-->
-<!--    <string name="admob_simple_medium_ids">ca-app-pub-3940256099942544/6300978111</string>-->
-<!--    <string name="admob_native_banner_ids">ca-app-pub-3940256099942544/2247696110</string>-->
-<!--    <string name="admob_native_medium_ids">ca-app-pub-3940256099942544/2247696110</string>-->
-<!--    <string name="admob_interstitial_ids">ca-app-pub-3940256099942544/1033173712</string>-->
-
-
-        <string name="facebook_simple_banner_ids">3396466293911199_3396490570575438</string>
-        <string name="facebook_native_banner_ids">3396466293911199_3396487407242421</string>
-        <string name="facebook_simple_medium_ids">3396466293911199_3396491207242041</string>
-        <string name="facebook_native_medium_ids">3396466293911199_3396477787243383</string>
-        <string name="facebook_interstitial_ids">3396466293911199_3396491720575323</string>
-
-        <string name="admob_app_ids">ca-app-pub-7451734862836464~9708033741</string>
-        <string name="admob_simple_banner_ids">ca-app-pub-7451734862836464/6111230200</string>
-        <string name="admob_simple_medium_ids">ca-app-pub-7451734862836464/3318719360</string>
-        <string name="admob_native_banner_ids">ca-app-pub-7451734862836464/9125579815</string>
-        <string name="admob_native_medium_ids">ca-app-pub-7451734862836464/4026980580</string>
-        <string name="admob_interstitial_ids">ca-app-pub-7451734862836464/4218552279</string>
-
-
-    <string name="privacy_url">https://sites.google.com/view/fb-video-downoader-walrus-tech/home</string>
-
     <string name="text_download">Video is Downloading Successfully!</string>
     <string name="video_dir">/Download/FBDownloader/</string>
     <string name="slide1_heading">Download Facebook Video From Web View (Click on facebook icon)</string>

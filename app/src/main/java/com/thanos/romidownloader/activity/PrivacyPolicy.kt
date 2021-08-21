@@ -24,10 +24,7 @@ class PrivacyPolicy : AppCompatActivity() {
         privacyTextView = findViewById(R.id.privacyTextView)
 
         privacyTextView.setOnClickListener(View.OnClickListener {
-            val uri =
-                Uri.parse(getString(R.string.privacy_url))
-            val intent2 = Intent(Intent.ACTION_VIEW, uri)
-            startActivity(intent2)
+            Toast.makeText(this,"Privacy Policy",Toast.LENGTH_SHORT).show()
         })
 
         privacyCheckBox.setOnCheckedChangeListener(CompoundButton.OnCheckedChangeListener { compoundButton, b ->

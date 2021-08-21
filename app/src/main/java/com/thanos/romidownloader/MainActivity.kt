@@ -15,6 +15,7 @@ import android.view.Window
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -78,17 +79,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 )
             }
 
-            R.id.nav_privacy_policy -> startActivity(
-                Intent(
-                    "android.intent.action.VIEW",
-                    Uri.parse(getString(R.string.privacy_url))
-                )
-            )
+            R.id.nav_privacy_policy ->  Toast.makeText(this,"Privacy Policy",Toast.LENGTH_SHORT).show()
 
             R.id.nav_more -> {
-                val uri4 = Uri.parse("https://play.google.com/store/apps/developer?id=WALRUS+TECH")
-                val intent2 = Intent(Intent.ACTION_VIEW, uri4)
-                startActivity(intent2)
+                Toast.makeText(this,"More Apps",Toast.LENGTH_SHORT).show()
             }
 
         }
